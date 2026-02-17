@@ -1,0 +1,149 @@
+/* Hero Section */
+
+
+
+.back{
+    background-color: #80bfff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+.back img{
+    height: 50vh;
+    border-radius: 3rem;
+}
+
+.text1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: 4rem;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(13) infinite alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+@keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 70%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+.button .btn{
+    background-color: #30abd5;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+
+ /* Media Query */
+@media screen and (max-width:768px) {
+  .text1{
+      font-size: 20px;
+  }
+  
+  .name{
+    margin-right: 1rem;
+  }
+  .navbar-toggler{
+    margin-left: 1rem;
+  }
+  .para1{
+      font-size: 15px;
+  }
+  .para{
+      font-size: 18px;
+  }
+  .text{
+      font-size: 35px;
+  }
+  @keyframes typewriter {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 93%
+      }
+    }
+  .back{
+      margin-top: 1rem;
+  }
+  .back img{
+      border-radius: 5rem;
+  }
+  .button{
+      display: flex;
+      justify-content: center;
+  }
+  .back1 img{
+    border-radius: 5rem;
+  }
+  .vertical{
+      margin-right: 10rem;
+  }
+  
+  .card-width{
+      margin-top: 33rem;
+      padding-bottom: 4rem;
+      /* margin-left: 1rem; */
+      display: flex;
+      justify-content: center;
+  }
+  .box2{
+      width: 17rem;
+      margin-left: 1rem;
+  }
+  .vertical{
+    display: none;
+  }
+  .box{
+    margin-right: 4rem;
+  }
+  .box1{
+    margin-right: 4rem;
+  }
+  .end{
+    display: none;
+  }
+  .progress.blue{
+    margin-left: 5rem;
+  }
+  .fields{
+    display: flex;
+    justify-content: center;
+  }
+  .card1{
+    margin-top: 2rem;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 93%
+    }
+  }
+}

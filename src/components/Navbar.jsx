@@ -92,7 +92,7 @@ function Navbar() {
 </NavLink>
 
 <NavLink to="/project" className="nav-link" onClick={closeMenuManually}>
-  Project
+  Projects
 </NavLink>
 
 <NavLink to="/contact" className="nav-link" onClick={closeMenuManually}>
